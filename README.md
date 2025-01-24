@@ -209,7 +209,7 @@ Este repositório contém o script e o relatório utilizados no projeto **web_lo
 - **script**: Contém os arquivos relacionados ao script do Databricks.
   - **[script.py](https://github.com/enzobonazzi/web_log_analysis/blob/main/script.py)**: Script principal do Databricks em Python.
   - **[script.ipynb](https://github.com/enzobonazzi/web_log_analysis/blob/main/script.ipynb)**: Notebook do Databricks.
-  - **[script.html](file:///C:/Users/enzo.bonazzi/OneDrive/Documentos/Trabalho/Santander/F1rst/Case/entrega/script/script.html)**: Relatório gerado pelo script do Databricks.
+  - **[script.html](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3778539461350800/1478756486841749/6844958453960642/latest.html)**: Relatório gerado pelo script do Databricks.
  
 - **powerbi**: Contém o arquivo de Power BI utilizado para análise.
   - **[relatorio.pbip](https://github.com/enzobonazzi/web_log_analysis/blob/main/relatorio.pbip)**: Arquivo de relatório do Power BI.
