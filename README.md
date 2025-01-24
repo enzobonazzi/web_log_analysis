@@ -151,6 +151,15 @@ Para acessar os dados gravados via Spark SQL:
 
 ---
 
+# Resultado
+### Acessar o Notebook do Databricks
+Confira os resultados do desafio e a estruturação do código realizado. Clique no link abaixo para acessar o notebook completo:
+  - **[Notebook - Web Log Analysis](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3778539461350800/1478756486841749/6844958453960642/latest.html)**
+
+---
+
+---
+
 # Visualização no Power BI
 O relatório no Power BI foi projetado para fornecer os seguintes insights:
 
@@ -171,12 +180,12 @@ O relatório no Power BI foi projetado para fornecer os seguintes insights:
 Além disso, o relatório inclui uma **tabela completa** com todas as requisições processadas, permitindo que os usuários apliquem filtros personalizados e exportem os dados em diversos formatos, como Excel e CSV.
 
 ### Acessar o Dashboard
-Para acessar o dashboard basta acessar o link abaixo:
+Para acessar o dashboard clique no link abaixo:
   - **[relatorio_web](https://app.powerbi.com/view?r=eyJrIjoiYmQxZGU1MWUtM2Y0ZS00NDllLWE3ZTAtNjNkY2JjNGE5YjkzIiwidCI6IjEzYzIzNzQxLWE5NDItNGRiNy04MGJlLTc3MjcwZGYzMmJhMCJ9)**: Página web com o relatório do Power BI.
 
 ---
 
-# Resultados e Benefícios
+# Impactos e Benefícios
 - **Automação**: Atualização em tempo real dos dados e relatórios, economizando tempo e reduzindo erros manuais.
 - **Performance**: Processamento de grandes volumes de dados em alta velocidade utilizando PySpark.
 - **Insights**: Relatórios detalhados no Power BI, proporcionando uma visão ampla e aprofundada dos logs processados.
@@ -209,7 +218,6 @@ Este repositório contém o script e o relatório utilizados no projeto **web_lo
 - **script**: Contém os arquivos relacionados ao script do Databricks.
   - **[script.py](https://github.com/enzobonazzi/web_log_analysis/blob/main/script.py)**: Script principal do Databricks em Python.
   - **[script.ipynb](https://github.com/enzobonazzi/web_log_analysis/blob/main/script.ipynb)**: Notebook do Databricks.
-  - **[script.html](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3778539461350800/1478756486841749/6844958453960642/latest.html)**: Relatório gerado pelo script do Databricks.
  
 - **powerbi**: Contém o arquivo de Power BI utilizado para análise.
   - **[relatorio.pbip](https://github.com/enzobonazzi/web_log_analysis/blob/main/relatorio.pbip)**: Arquivo de relatório do Power BI.
