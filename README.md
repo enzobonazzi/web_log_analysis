@@ -170,6 +170,10 @@ O relatório no Power BI foi projetado para fornecer os seguintes insights:
 
 Além disso, o relatório inclui uma **tabela completa** com todas as requisições processadas, permitindo que os usuários apliquem filtros personalizados e exportem os dados em diversos formatos, como Excel e CSV.
 
+### Acessar o Dashboard
+Para acessar o dashboard basta acessar o link abaixo:
+  - **[relatorio_web](https://app.powerbi.com/view?r=eyJrIjoiYmQxZGU1MWUtM2Y0ZS00NDllLWE3ZTAtNjNkY2JjNGE5YjkzIiwidCI6IjEzYzIzNzQxLWE5NDItNGRiNy04MGJlLTc3MjcwZGYzMmJhMCJ9)**: Página web com o relatório do Power BI.
+
 ---
 
 # Resultados e Benefícios
@@ -198,18 +202,17 @@ Este projeto demonstra a integração eficiente entre diferentes ferramentas de 
 
 # Navegação do repositório: web_logs
 
-Este repositório contém scripts e relatórios utilizados no projeto **web_logs**.
+Este repositório contém o script e o relatório utilizados no projeto **web_logs**.
 
 ### Estrutura de pastas
 
-- **script**: Contém os arquivos relacionados aos scripts do Databricks.
-  - **[script.py](x)**: Script principal do Databricks em Python.
-  - **[script.ipynb](x)**: Notebook do Databricks.
-  - **[script.html](x)**: Relatório gerado pelo script do Databricks.
-
+- **script**: Contém os arquivos relacionados ao script do Databricks.
+  - **[script.py](https://github.com/enzobonazzi/web_log_analysis/blob/main/script.py)**: Script principal do Databricks em Python.
+  - **[script.ipynb](https://github.com/enzobonazzi/web_log_analysis/blob/main/script.ipynb)**: Notebook do Databricks.
+  - **[script.html](file:///C:/Users/enzo.bonazzi/OneDrive/Documentos/Trabalho/Santander/F1rst/Case/entrega/script/script.html)**: Relatório gerado pelo script do Databricks.
+ 
 - **powerbi**: Contém o arquivo de Power BI utilizado para análise.
-  - **[relatorio.pbix](x)**: Arquivo de relatório do Power BI.
-  - **[relatorio_web](x)**: Página web com o relatório do Power BI.
+  - **[relatorio.pbip](https://github.com/enzobonazzi/web_log_analysis/blob/main/relatorio.pbip)**: Arquivo de relatório do Power BI.
 
 ### Como acessar os arquivos
 Cada arquivo acima está vinculado ao seu respectivo link. 
