@@ -1,4 +1,4 @@
-# README: Log Analysis com Databricks e Delta Lake
+# README: Web Log Analysis
 
 ---
 
@@ -8,21 +8,22 @@
 2. **Pré-requisitos**
 3. **Objetivos do Projeto**
 4. **Tecnologias Utilizadas**
-5. **Estrutura do Pipeline de Dados**
+5. **Estrutura de Dados**
 6. **Automação com Power Automate**
 7. **Configuração do Ambiente**
 8. **Execução do Projeto**
-9. **Operações com Delta Lake**
-10. **Visualização no Power BI**
-11. **Resultados e Benefícios**
-12. **Possíveis Melhorias Futuras**
-13. **Observações**
-14. **Navegação do repositório: web_logs**
-15. **Documentação das Bibliotecas Utilizadas**
-16. **Contato**
+9. **Pipeline do Projeto**
+10. **Operações com Delta Lake**
+11. **Visualização no Power BI**
+12. **Resultados e Benefícios**
+13. **Possíveis Melhorias Futuras**
+14. **Observações**
+15. **Navegação do repositório: web_logs**
+16. **Documentação das Bibliotecas Utilizadas**
+17. **Contato**
 
 ---
-    
+
 # Introdução
 Este projeto implementa uma pipeline de análise de logs de acesso a servidores web usando PySpark e Delta Lake. A análise é realizada no Databricks, e os dados são armazenados e gerenciados usando Delta Tables para oferecer transações ACID, versionamento de dados e desempenho otimizado, integrando soluções para automação de atualização e visualização de dados em tempo real. O pipeline de dados foi projetado com foco em eficiência, escalabilidade e análise de insights para tomada de decisão.
 
@@ -56,7 +57,7 @@ Antes de iniciar, certifique-se de que você tem:
 
 ---
 
-# Estrutura do Pipeline de Dados
+# Estrutura de Dados
 1. **Camada Bronze**:
    - Dados brutos extraídos do .txt.
    - O arquivo é lido e armazenado nesta camada sem transformação significativa.
@@ -110,7 +111,7 @@ spark.conf.set(f"fs.azure.sas.{container_name}.{storage_account_name}.blob.core.
 3. Dê um nome ao notebook (por exemplo, `web_log_analysis`) e configure a linguagem para Python.
 4. Copie e cole o código fornecido no notebook, de preferencia em formato de 'células'
 
-### 2. Estrutura da Pipeline
+### 2. Estrutura
 O código realiza as seguintes etapas:
 - **Leitura dos logs (Camada Bronze):** Lê os logs brutos de arquivos armazenados no Azure Blob Storage.
 - **Transformação (Camada Silver):** Extrai campos úteis como IP, Timestamp, URI, Status e etc, usando expressões regulares.
@@ -121,7 +122,7 @@ O código realiza as seguintes etapas:
 - **Cálculos e Análises:** A partir da Delta Table realiza cálculos e análise para cumprir o desafio proposto.
 - **Armazenamento e Consulta de Log:** Os logs de eventos distribuídos nas função são armazenados e consultados em Spark SQL.
 
-### 3. Execução do Código
+### 3. Execução
 1. **Conecte-se ao Blob Storage:** Certifique-se de que as configurações de autenticação do Token SAS estão corretas.
 2. **Execute cada célula do notebook:**
    - Comece pela inicialização da SparkSession.
@@ -130,6 +131,14 @@ O código realiza as seguintes etapas:
    - Prossiga com a ingestão e leitura dos logs.
    - Realize os cálculos.
    - Realize as transformações e gravações em Delta Tables.
+
+---
+
+# Pipeline do Projeto
+
+Clique na imagem para expandi-la.
+
+![Image](https://github.com/user-attachments/assets/e5f28983-f5fd-41f7-978b-0624a6956c83)
 
 ---
 
